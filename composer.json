@@ -1,0 +1,25 @@
+{
+    "name": "jpcavalheiro/gerenciador_de_projetos",
+    "authors": [
+        {
+            "name": "João Paulo Cavalheiro de Oliveira",
+            "email": "jpcavalheiro2010@gmail.com"
+        }
+    ],
+    "require": {
+        "pimple/pimple": "^3.2",
+        "symfony/http-foundation": "^4.3",
+        "zendframework/zend-eventmanager": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "jpcavalheiro\\GP\\": "src"
+        }
+    },
+    "scripts": {
+        "server": "php -S localhost:8080 -t public"
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}
