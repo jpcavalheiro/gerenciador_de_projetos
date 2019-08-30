@@ -6,7 +6,7 @@ $c = require __DIR__ . '/app/config/containers.php';
 $c = new Pimple\Container($c);
 
 if (!empty($argv[1]) and $argv[1] === 'fresh'){
-    $c['db']->exec('DROP DATABASE IF EXISTS `jpcavalheiro_gp`');
+    $c['db']->exec('DROP DATABASE IF EXISTS `' . $c['settings']['db']['database'] . '`');
     echo 'Database dropped!' . PHP_EOL;
 }
 

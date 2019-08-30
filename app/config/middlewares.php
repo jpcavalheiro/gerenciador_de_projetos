@@ -5,7 +5,7 @@ $app->Middleware('before', function ($c) {
 });
 
 $app->Middleware('before', function ($c) {
-    header('Content-Type: application/json');
+    //header('Content-Type: application/json');
 });
 
 /*
