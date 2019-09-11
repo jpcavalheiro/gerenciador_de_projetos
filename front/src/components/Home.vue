@@ -88,7 +88,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Gerenciador de Projetos'
+      msg: 'Gerenciador de Projetosssss'
     }
   }
 }
